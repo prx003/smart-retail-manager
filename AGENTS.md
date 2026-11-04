@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep authentication roles in the protected `public.user_roles` table and validate administrator privileges server-side for staff creation, invoice settings, saved-bill edits, and offers; browser role checks alone are not a security boundary.

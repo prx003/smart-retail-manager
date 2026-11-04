@@ -1,0 +1,15 @@
+{
+  "source": "github",
+  "repository": "https://github.com/panchamihegde08-svg/quick-run-command.git",
+  "capabilities": [
+    {"capability":"application code and routes","source":"public repository","outcome":"importing grocery POS workflows into Lovable project","status":"in_progress","next_action":"finish import and verify all screens"},
+    {"capability":"database schema","source":"repository SQL migrations","outcome":"migrate schema and access policies to Lovable Cloud","status":"pending","next_action":"apply schema migration"},
+    {"capability":"customer, product, sale, supplier, inventory, and settings records","source":"IndexedDB and Cloud shop_records","outcome":"not present in repository export","status":"pending","next_action":"request sanitized CSV or JSON exports after preview"},
+    {"capability":"user identities and staff roles","source":"Cloud Auth and public.user_roles","outcome":"existing source user export not present","status":"pending","next_action":"request user IDs, email addresses, profiles, and role export after preview"},
+    {"capability":"authentication and authorization","source":"repository Cloud migrations and client code","outcome":"recreate secure Lovable Cloud sign-in and admin role controls","status":"in_progress","next_action":"apply schema and test admin-only staff provisioning"},
+    {"capability":"uploaded file bytes","source":"repository","outcome":"no file exports detected","status":"verified","next_action":"none detected"},
+    {"capability":"external providers, public endpoints, callbacks, webhooks, and schedules","source":"repository inspection","outcome":"none detected","status":"verified","next_action":"none detected"},
+    {"capability":"secrets","source":"excluded repository .env","outcome":"not copied; manifest found no required named variables","status":"verified","next_action":"none detected"},
+    {"capability":"cutover and verification","source":"repository","outcome":"pending preview and data handoff","status":"pending","next_action":"verify app and request records"}
+  ]
+}
